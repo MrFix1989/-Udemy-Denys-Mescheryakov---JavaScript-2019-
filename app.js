@@ -22,6 +22,15 @@ value = parseInt('wrewr234234dfgdfgf');  // не преобразует в чи�
 value = parseFloat('23.4234dfgdfgf');  //преобразует в число
 value = parseFloat('dfgdfgdfg23.4234dfgdfgf');  //не преобразует в число
 
+//Boolian
+
+value = Boolean('23.4234dfgdfgf'); //любая заполненная строка будет считаться true
+value = Boolean(''); //любая пустая строка будет считаться folse
+value = Boolean(0); //также 0 будет считаться folse
+value = Boolean(undefined); //будет считаться folse
+value = Boolean(NaN); //удет считаться folse
+value = Boolean([]); //удет считаться true
+value = Boolean({}); //удет считаться true
 
 console.log(value);
 console.log(typeof value);   //определение типа данных которые мы выводим
