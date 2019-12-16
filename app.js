@@ -17,6 +17,11 @@ value = Number(null);
 value = Number('true');
 value = Number([2,3,5,6,4]);
 
+value = parseInt('234234dfgdfgf'); //преобразует в число
+value = parseInt('wrewr234234dfgdfgf');  // не преобразует в число
+value = parseFloat('23.4234dfgdfgf');  //преобразует в число
+value = parseFloat('dfgdfgdfg23.4234dfgdfgf');  //не преобразует в число
+
 
 console.log(value);
 console.log(typeof value);   //определение типа данных которые мы выводим
