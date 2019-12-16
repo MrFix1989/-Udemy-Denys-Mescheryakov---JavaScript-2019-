@@ -9,5 +9,6 @@
  */
 
 console.table({name: 'Paraska', age:43})
+console.clear()
 console.log({name1: 'Paraska2', age1:41})
 
