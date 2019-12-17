@@ -30,6 +30,8 @@ console.log(value);
 //Работа с неточными числами
 
 value = 0.6 + 0.7;
-value = value.toFixed(1); // функция по округлению до еужного значеия после запятой
+value = parseFloat(value.toFixed(1)); // функция по округлению до еужного значеия после запятой
+// + перед функцией переводит результат в чисорврй тип  или используем знакомую нам функцию parseFloat
+
 console.log(value);
 console.log(typeof value);
