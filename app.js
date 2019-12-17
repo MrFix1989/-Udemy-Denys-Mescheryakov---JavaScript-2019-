@@ -27,3 +27,9 @@ console.log(value);
 ++value;    // +1 изменения произойдут на этой же строке
 console.log(value);
 
+//Работа с неточными числами
+
+value = 0.6 + 0.7;
+value = value.toFixed(1); // функция по округлению до еужного значеия после запятой
+console.log(value);
+console.log(typeof value);
