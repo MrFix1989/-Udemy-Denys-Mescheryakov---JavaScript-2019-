@@ -24,4 +24,8 @@ console.log(value, firstName);
 value = firstName.toLowerCase();
 console.log(value, firstName);
 
+value = firstName.concat(' ', lastName);  // метод concat производит конкотенацию
+
+console.log(value);
+
 
