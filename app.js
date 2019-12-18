@@ -15,8 +15,13 @@ value += ' I am ' + age; //сокращенный вариантпрошлой �
 
 value = firstName.length; //определяем длинну строки
 value = firstName[2]; // получаем третий символ в строке
+value = firstName[firstName.length - 1]; // способ получить последний символ в строке
 
+value = firstName.toUpperCase();
 
-console.log(value);
+console.log(value, firstName);
+
+value = firstName.toLowerCase();
+console.log(value, firstName);
 
 
