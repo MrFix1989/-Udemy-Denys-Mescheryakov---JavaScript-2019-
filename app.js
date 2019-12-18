@@ -13,6 +13,10 @@ value = firstName + " " + lastName;
 
 value += ' I am ' + age; //сокращенный вариантпрошлой записи
 
+value = firstName.length; //определяем длинну строки
+value = firstName[2]; // получаем третий символ в строке
+
+
 console.log(value);
 
 
