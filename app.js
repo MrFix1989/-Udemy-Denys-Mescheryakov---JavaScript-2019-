@@ -44,6 +44,14 @@ console.log(value);
 
 
 
+value = str.includes('my'); //метод возвращает нам будевое значение о том есть ли данная строка или нет
+console.log(value);
+
+value = str.includes('MY'); // если значение меет к примеру не тот регистр в котором оно записано то метод вернет false
+console.log(value);
+
+
+
 
 
 
