@@ -57,6 +57,10 @@ value = str.slice(0,-4);  // минусовое значение удаляет 
 console.log(value);
 
 
+value = str.replace('name', 'favorite'); // метод заменяет одно значение строки на другое
+console.log(value);
+
+
 
 
 
