@@ -50,6 +50,12 @@ console.log(value);
 value = str.includes('MY'); // если значение меет к примеру не тот регистр в котором оно записано то метод вернет false
 console.log(value);
 
+value = str.slice(0,5); // оставляет содержимое между указзаных индексов строки
+console.log(value);
+
+value = str.slice(0,-4);  // минусовое значение удаляет симфолы с конца строки
+console.log(value);
+
 
 
 
